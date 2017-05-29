@@ -1,0 +1,29 @@
+{
+  "name": "logo10",
+  "version": "1.0.0",
+  "description": "ten's procedural animated logo",
+  "main": "index.js",
+  "scripts": {
+    "dev": "browser-sync start --server --files='*.html, ./dist/*.js' --startPath example.html | webpack -w",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://fillmember@github.com/fillmember/logo10.git"
+  },
+  "author": "ten",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fillmember/logo10/issues"
+  },
+  "homepage": "https://github.com/fillmember/logo10#readme",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "webpack": "^2.6.1"
+  },
+  "dependencies": {
+    "gsap": "^1.19.1"
+  }
+}
